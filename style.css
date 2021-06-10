@@ -1,0 +1,277 @@
+/*  root element 
+::root{
+  --color:white: // variable in css
+}
+*/
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  background-color: black;
+  font-family:"poppins" , Sans-Serif;
+  color: white;
+}
+
+#nav{
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  top:0px;
+  width:100%;
+  height:80px;
+  font-size:40px;
+}
+#nav h3{
+  font-size:50px;
+}
+
+#bar{
+  position:absolute;
+  top:14px;
+  left:93%;
+  font-size:44px;
+}
+
+.img{
+  height:1840px;
+  width:893px;
+}
+
+.head{
+  position: absolute;
+  top:55%;
+  left:23%;
+  color: white;
+  font-size:70px;
+}
+
+.subtit{
+  position: absolute;
+  top:61%;
+  left:21%;
+  color: white;
+  font-size:40px;
+  
+}
+.subtit::before{
+  content:"Introducing";
+  color: white;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.subtit::after{
+  content:"penetration testing Tool. Ever.";
+  color: white;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+
+.logo{
+  width:450px;
+  height:400px;
+  position:absolute;
+  top:33%;
+ right:26%;
+}
+
+.downicon{
+position: absolute;
+top:75%;
+left:34%;
+border:1px solid white;
+padding:10px;
+border-radius:4px;
+padding-right:68px;
+font-size:40px;
+}
+
+.downicon:hover{
+  border: 1px solid orange;
+  color:black;
+  background: orange;
+  text-shadow:12px;
+  border-radius:8px;
+}
+
+#icon{
+  position: absolute;
+  top:26%;
+  left:85%;
+}
+
+#down1{
+  position: absolute;
+  top:94%;
+  left:49%;
+  animation: down 1s infinite;
+  font-size:20px;
+}
+
+@keyframes down{
+  from{
+    position: absolute;
+  top:94%;
+  left:48%;
+  }
+  to{
+    position: absolute;
+  top:93%;
+  left:48%;
+  }
+}
+
+.why{
+  padding-right:20px;
+  padding-left:20px;
+}
+
+#card{
+  background-color: black;
+  height:1870px;
+  width:980px;
+  position:absolute;
+  top:1px;
+  display: none;
+}
+#card h3{
+  font-size:50px;
+}
+
+#card li{
+  display:flex;
+  direction: none;
+  justify-content: center;
+  align-content: center;
+  margin:300px;
+  padding:10px;
+  font-size:40px;
+}
+
+#card li a{
+  text-decoration: none;
+  color: white;
+}
+
+#card li:hover{
+  color:orange;
+  text-shadow:12px;
+}
+
+#card li a:hover{
+  color:orange;
+  text-shadow:12px;
+}
+
+
+.name{
+  position:absolute;
+  top:-1px;
+}
+
+
+@media only screen and (max-width:500px) {
+  #card{
+  background-color: black;
+  height:745px;
+  width:393px;
+  position:absolute;
+  top:1px;
+  display: none;
+}
+#card h3{
+  font-size:19px;
+}
+
+#card li{
+  display:flex;
+  direction: none;
+  justify-content: center;
+  align-content: center;
+  margin:100px;
+  padding:10px;
+  font-size:15px;
+}
+.img{
+  height:762px;
+  width:393px;
+}
+.subtit{
+  position: absolute;
+  top:61%;
+  left:21%;
+  align-items: center;
+  color: white;
+  font-size:15px;
+}
+.subtit::before{
+  content:"Introducing";
+  color: white;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.subtit::after{
+  content:"penetration testing Tool. Ever.";
+  color: white;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.logo{
+  width:200px;
+  height:180px;
+  position:absolute;
+  top:33%;
+  right:25%;
+}
+.downicon{
+position: absolute;
+top:75%;
+left:32%;
+border:1px solid white;
+padding:10px;
+border-radius:4px;
+padding-right:36px;
+font-size:15px;
+}
+
+.head{
+  position: absolute;
+  top:55%;
+  left:20%;
+  color: white;
+  font-size:30px;
+}
+#icon{
+  position: absolute;
+  top:31%;
+  left:83%;
+}
+
+#nav{
+  overflow: hidden;
+  background-color:black;
+  position: fixed;
+  top:0px;
+  width:100%;
+  height:35px;
+  font-size:15px;
+}
+#nav h3{
+  font-size:19px;
+}
+
+#bar{
+  position:absolute;
+  top:6px;
+  left:93%;
+  font-size:15px;
+}
+
+}
