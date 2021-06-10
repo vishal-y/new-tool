@@ -21,8 +21,8 @@
     </p>
     <img class="logo" src="1.gif" alt="" />
     <div class="downicon">
-    <i id="icon" class="fa fa-download sm-small" aria-hidden="true" ></i>
-    <p class="down">DOWNLOAD</p>
+    <i id="icon" class="fa fa-download sm-small" aria-hidden="true" onclick="go()"></i>
+    <p class="down"><a href="sign up.html">DOWNLOAD</a></p>
     </div>
     
     <i id="down1" class="fa fa-angle-double-down" aria-hidden="true"></i>
@@ -104,6 +104,11 @@ let size = screen.width;
     document.getElementById("card").style.display=""
     document.getElementById("pura").style.display=""
   }
+
+function go(){
+    window.location.href="sign up.html";
+  }
+
 </script>
 
   </body>
