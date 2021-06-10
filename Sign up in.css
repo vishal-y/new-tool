@@ -1,0 +1,93 @@
+body{
+  height:750px;
+  background:linear-gradient(45deg,#8b51ff,#7a37ff);
+  font-family:'Poppins',sans-Seriff;
+}
+
+form{
+  background: white;
+  width:260px;
+  padding:20px 30px;
+  position: absolute;
+  top:160px;
+  left:35px;
+  border-radius: 10px;
+  box-shadow: 10px 20px 25px rgba(0,0,0,0.15);
+}
+
+label{
+  font-weight:500;
+  color:#101030;
+}
+
+input{
+  display: block;
+  border: 1px solid white;
+  width: 100%;
+  margin-top:5px ;
+  padding: 10px
+  outline: none;
+  border-radius: 5px;
+  color: #101010;
+  font-family:'Poppins',sans-Seriff;
+}
+#password{
+  margin-bottom: 15px;
+}
+input[type="text"]{
+  border: 1px solid #c2c2c2;
+  padding:4px;
+  margin-bottom:15px;
+}
+input[type="password"]{
+  border: 1px solid #c2c2c2;
+  padding:4px;
+}
+
+input[type="button"]{
+  background: #7f3fff;
+  height: 40px;
+  width:104%;
+  border:none;
+  color: white;
+  font-weight:500;
+  letter-spacing:1px;
+  font-size: 15px;
+  margin-top: 30px;
+}
+
+p{
+  display: inline-block;
+  color:#fff;
+  font-size:15px;
+}
+
+#side{
+  
+  color:green;
+}
+
+#show{
+  position:absolute;
+  top:220px;
+  
+}
+
+a{
+  text-decoration: none;
+  
+}
+
+h5{
+ position:relative;
+ left:7px;
+}
+
+
+.line{
+  height:2px;
+  width:260px;
+  background-color:#7a3fff;
+  position:relative;
+  left:1px;
+}
