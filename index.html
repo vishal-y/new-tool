@@ -81,6 +81,14 @@
 <br />
 
 <script type="text/javascript" charset="utf-8">
+
+let size = screen.width;
+    if(size > 600){
+    document.getElementById("body").style.display="none" ;
+    document.getElementById("h3").innerHTML="This site is only for mobile and tabs devices. Shut down your pc and try to open in phone."
+    }
+    
+
   function show(){
     document.getElementById("card").style.display="block"
     document.getElementById("pura").style.display="none"
