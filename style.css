@@ -281,3 +281,29 @@ font-size:15px;
   top:40%;
   left:5%;
 }
+
+
+.sign{
+  position:absolute;
+  top:90%;
+  left:25%;
+  padding:10px;
+  display: inline-block;
+}
+
+.sign a{
+  border: 1px solid white;
+  border-radius:4px;
+  padding:7px;
+  margin:10px;
+  text-decoration: none;
+  color: white;
+}
+
+.sign a:hover{
+  border: 1px solid orange;
+  color:black;
+  background: orange;
+  text-shadow:12px;
+  border-radius:8px;
+}
