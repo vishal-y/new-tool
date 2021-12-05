@@ -9,6 +9,8 @@
   margin: 0px;
 }
 
+
+
 body{
   background-color: black;
   font-family:"poppins" , Sans-Serif;
@@ -25,7 +27,7 @@ body{
   font-size:40px;
 }
 #nav h3{
-  font-size:50px;
+  font-size:350px;
 }
 
 #bar{
@@ -42,19 +44,20 @@ body{
 
 .head{
   position: absolute;
-  top:55%;
-  left:23%;
+  top:85%;
+  left:30%;
   color: white;
-  font-size:70px;
+  font-size:60px;
+  z-index: -1px;
 }
 
 .subtit{
   position: absolute;
-  top:61%;
-  left:21%;
+  top:110%;
+  left:25%;
   color: white;
   font-size:40px;
-  
+  z-index: 1px;
 }
 .subtit::before{
   content:"Introducing";
@@ -76,13 +79,13 @@ body{
   width:450px;
   height:400px;
   position:absolute;
-  top:33%;
- right:26%;
+  top:20%;
+ right:32%;
 }
 
 .downicon{
 position: absolute;
-top:75%;
+top:165%;
 left:34%;
 border:1px solid white;
 padding:10px;
@@ -106,8 +109,8 @@ font-size:40px;
 }
 
 #down1{
-  position: absolute;
-  top:94%;
+  position: relative;
+  top:220%;
   left:49%;
   animation: down 1s infinite;
   font-size:20px;
@@ -116,12 +119,12 @@ font-size:40px;
 @keyframes down{
   from{
     position: absolute;
-  top:94%;
+  top:200%;
   left:48%;
   }
   to{
     position: absolute;
-  top:93%;
+  top:220%;
   left:48%;
   }
 }
@@ -133,7 +136,7 @@ font-size:40px;
 
 #card{
   background-color: black;
-  height:1870px;
+  height:1820px;
   width:980px;
   position:absolute;
   top:1px;
@@ -174,8 +177,7 @@ font-size:40px;
   top:-1px;
 }
 
-
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:300px) {
   #card{
   background-color: black;
   height:745px;
